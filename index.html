@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Thumbnail Gallery - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/thumbnail-gallery.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+           <header class='header col-md-offset-5'>
+                <nav class='nav-header'>
+                    <a href='#'>Home</a>
+                    <a href='#'>Activities</a>
+                    <a href='#'>AboutUs</a>
+                    <a href='#'>Blog</a>
+                    <a href='#' class='bt btn btn-default'>SingUp</a>
+                    <a href='#' class='bt btn btn-default'>Login</a>
+                    <a href='#' class='bt btn btn-default'>Cart</a>
+                    <a href='#' class='bt btn btn-default'>En</a>
+                </nav>
+            </header>
+              <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+       
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Dashboard</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">PROFILE</a>
+                    </li>
+                    <li>
+                        <a href="#">BOOKINGS</a>
+                    </li>
+                    <li>
+                        <a href="#">REVIEWS</a>
+                    </li> 
+                    <li>
+                        <a href="#">POSTCARDS</a>
+                    </li> 
+                    <li>
+                        <a href="#">GUIDES</a>
+                    </li>  <li>
+                        <a href="#">WITHLIST</a>
+                    </li> 
+                    <li>
+                        <a href="#">BADGES</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+           
+        </div>
+    </nav>
+          <!--   <div class='head'>
+                <a href='#'>PROFILE</a>
+                <a href='#'>BOOKINGS</a>
+                <a href='#'>REVIEWS</a>
+                <a href='#'>POSTCARDS</a>
+                <a href='#'>GUIDES</a>
+                <a href='#'>WITHLIST</a>
+                <a href='#'>BADGES</a>
+            </div> -->
+        <div class='container'>
+        <div class='' style=''>
+            <!-- ////////////////// -->
+            <div class='profile-complete row'>
+                <div class='profile-header col-md-12 col-xs-12'>
+                    <span>Profile Complete</span>
+                </div>
+                <div class='' align="center" style='padding-top:0px'>
+                <div class='profile-body col-md-8 col-md-offset-3'>
+                    <div class='row'>
+                        <span class='profile-text col-md-12 col-xs-12'>
+                            Complete your profile so that learnes can<br/>
+                            find and subscribe to your courses.
+                        </span>
+                        <div class='profile-info '>
+                            <img src='./img/profile.jpg' class='img-thumbnail'>
+                        </div>
+                        <div align="center"><input type='button' value='Contact Details' class='btn-profile btn btn-default'></div>
+                    </div>
+                </div>
+                </div>
+                 <div class='profile-footer row '>
+                        <span class='profile-footer-head col-md-3 col-md-offset-5 col-xs-12'>Edit Profile:city-academy</span>
+                        <div class='profile-footer-link col-md-5 col-md-offset-4'>
+                            Your profile link:<a href='http://myhobbycourses.com/vendor-profile/city-academy'>http://myhobbycourses.com/vendor-profile/city-academy</a>
+                        </div>
+                </div>
+            </div>
+       
+            <!-- //////////////////////// -->
+            
+                <div class='profile-complete row'>
+                 <div class='profile-header col-md-12 col-xs-12'>
+                    <span>Picture</span>
+                </div>
+                <form action='./index.php' method='post'>
+                <div class='row'>
+                    <div class='pic-head col-md-12 col-xs-12'>
+                        <input type='button' class='leftBtn' value="ENABLE EDITING">
+                        <input type='button' class='rightBtn' value="SAVE">
+                    </div><br>
+                    <div class='monkey col-md-12 col-xs-12' align="center">
+                        <img src='./img/monkey.jpg'>
+                        <div class='upload'>
+                            <span class='upload-title'>Upload picture</span>
+                            <input type='file' name='upload'>    
+                        </div>
+                    </div>
+                    </div>
+                </form>
+            </div>  
+            <!-- //////////////////////// -->
+            
+                <div class='profile-complete row'>
+                 <div class='update-header col-md-12 col-xs-12'>
+                    <span>Update Info</span>
+                </div>
+                <form action='./index.php' method='post'>
+                    <div class='row'>
+                        <div class='update-head col-md-12 col-xs-12' align='center'>
+                            <label class='update-lbl'>First Name <i>*</i></label><input type='text' class='update-btn'>
+                        </div>
+                        <div class='update-head col-md-12 col-xs-12' align='center'>
+                            <label class='update-lbl'>Last Name <i>*</i></label> <input type='text' class='update-btn'>
+                        </div> 
+                        <div class='update-head col-md-12 col-xs-12' align='center'>
+                            <label class='update-lbl'>Current Password <i>*</i></label> <input type='text' class='update-btn'>
+                        </div>
+                        <div class='update-head col-md-12 col-xs-12' align='center'>
+                            <label class='update-lbl'>Last Name <i>*</i></label> <input type='text' class='update-btn'>
+                        </div> 
+                        <div class='update-head col-md-12 col-xs-12' align='center'>
+                            <label class='update-lbl'>Email <i>*</i></label> <input type='text' class='update-btn'>
+                        </div>
+                        <div class='update-head col-md-12 col-xs-12' align='center'>
+                            <label class='update-lbl'>Gender <i>*</i></label> 
+                            <select class='update-btn'>
+                                <option></option>
+                                <option></option>
+                            </select>  
+                        </div>
+                        <div class='update-head col-md-12 col-xs-12' align='center'>
+                            <label class='update-lbl'>Date of birth <i>*</i></label> <input type='text' class='update-btn'>
+                        </div>
+                        <div class='update-head col-md-12 col-xs-12' align='center'>
+                            <label class='update-lbl'>Mobile <i>*</i></label> <input type='text' class='update-btn'>
+                        </div> 
+                        <div class='update-head col-md-12 col-xs-12' align='center'>
+                            <label class='update-lbl'>LandLine Number <i>*</i></label> <input type='text' class='update-btn'>
+                        </div>
+                        <div class='update-head col-md-12 col-xs-12' align='center'>
+                            <label class='update-lbl'>House Number <i>*</i></label> <input type='text' class='update-btn'>
+                        </div> 
+                        <div class='update-head col-md-12 col-xs-12' align='center'>
+                            <label class='update-lbl'>StreetName<i>*</i></label> <input type='text' class='update-btn'>
+                        </div>
+                        <div class='update-head col-md-12 col-xs-12' align='center'>
+                            <label class='update-lbl'>Postal Code<i>*</i></label> <input type='text' class='update-btn'>
+                        </div> 
+                        <div class='update-head col-md-12 col-xs-12' align='center'>
+                            <label class='update-lbl'>City <i>*</i></label> <input type='text' class='update-btn'>
+                        </div>
+                        <div class='update-head col-md-12 col-xs-12' align='center'>
+                            <label class='update-lbl'>Tribes <i>*</i></label> 
+                            <select class='update-btn'>
+                                <option></option>
+                                <option></option>
+                            </select>  
+                        </div>
+                         <div class='update-head col-md-12 col-xs-12' align='center'>
+                            <label class='update-lbl'>   </label> 
+                            <select class='update-btn'>
+                                <option></option>
+                                <option></option>
+                            </select>  
+                        </div>
+                         <div class='update-head col-md-12 col-xs-12' align='center'>
+                            <label class='update-lbl'>    </label> 
+                            <select class='update-btn'>
+                                <option></option>
+                                <option></option>
+                            </select>  
+                        </div>
+                         <div class='update-head col-md-12 col-xs-12' align='center'>
+                            <label class='update-lbl'>Website <i>*</i> </label><input type='text' class='update-btn'>
+                        </div>
+                        <div class='update-head col-md-12 col-xs-12' align='center'>
+                            <label class='update-lbl'>CompanyName <i>*</i></label><input type='text' class='update-btn'>
+                        </div> 
+                        <div class='update-head col-md-12 col-xs-12' align='center'>
+                            <label class='update-lbl'>Vat Registration Number<i>*</i></label><input type='text' class='update-btn'>
+                        </div>
+                         <div class='update-head col-md-12 col-xs-12' align='center'>
+                            <label class='update-lbl'>About Me <i>*</i></label> <textarea row='15' class='update-textarea'></textarea>
+                        </div>
+                       
+                       
+                    </div>
+                </form>
+                 <div class='chbBox col-xs-12' align="left">
+                            <input type='checkbox' class='ch'>Newsletter
+                            <input type='button' class='updateBtn' value="Update">
+                </div>
+            </div>
+
+            <div class='linkdin row'>
+                <div class='col-md-12 col-xs-12'>
+                    <span class='link-header'>Linkdin your social media accounts</span>
+                    <p class='link-body'>Linking your Holiday Hctivities Account to Facebook or Twitter is the easiest and best way to experience our website.When you link your account, we'll let you know when your friends join Holiday Activities</p>
+                </div>
+                <div class='icon col-md-12 col-xs-12'>
+                    <img src='./img/facebook.jpg' class='pic img-thumbnail'>
+                    <img src='./img/twitter.jpg' class='pic img-thumbnail'>
+                    <img src='./img/google.jpg' class='pic img-thumbnail'>
+                    <img src='./img/p.jpg' class='pic img-thumbnail'>
+                    <img src='./img/last.jpg' class='pic img-thumbnail'>
+                </div>
+
+            </div>
+
+
+         </div>
+         </div>
+         <div class='row'>
+                <img src='./img/map.jpg' class='img-thumbnail' width='100%' height='400px'>
+        </div>
+
+        <div class='container'>
+            <div class="jumbotron" style='background-color:rgba(128, 128, 128, 0.15);'>
+                <div class='row img-gallery'>
+                    <div class='act col-xs-12 col-md-12' align="center">My Activity List</div>
+                    <div class="col-lg-3 col-md-2 col-xs-12 thumb">
+                        <a class="thumbnail" href="#">
+                            <img class="img-responsive" src="./img/img1.jpg" alt="">
+                            <p class='guide'>Bought:8832---------------1Day/1Night</p>
+                            <div class='orgPrice'>Original Price:$<span class='money'>10,000,000</span></div>
+                            <div class='price'>$1520</div>
+                        </a>
+                    </div>  
+                    <div class="col-lg-3 col-md-2 col-xs-12 thumb">
+                        <a class="thumbnail" href="#">
+                            <img class="img-responsive" src="./img/img1.jpg" alt="">
+                            <p class='guide'>Bought:8832---------------1Day/1Night</p>
+                            <div class='orgPrice'>Original Price:$<span class='money'>10,000,000</span></div>
+                            <div class='price'>$1520</div>
+                        </a>
+                    </div>
+                     <div class="col-lg-3 col-md-2 col-xs-12 thumb">
+                        <a class="thumbnail" href="#">
+                            <img class="img-responsive" src="./img/img1.jpg" alt="">
+                            <p class='guide'>Bought:8832---------------1Day/1Night</p>
+                            <div class='orgPrice'>Original Price:$<span class='money'>10,000,000</span></div>
+                            <div class='price'>$1520</div>
+                        </a>
+                    </div>
+                     <div class="col-lg-3 col-md-2 col-xs-12 thumb">
+                        <a class="thumbnail" href="#">
+                            <img class="img-responsive" src="./img/img1.jpg" alt="">
+                            <p class='guide'>Bought:8832---------------1Day/1Night</p>
+                            <div class='orgPrice'>Original Price:$<span class='money'>10,000,000</span></div>
+                            <div class='price'>$1520</div>
+                        </a>
+                    </div>
+                    <br/>
+                     <div class='act col-xs-12 col-md-12' align="center">My Tribes</div>
+                    <div class="col-lg-4 col-md-3 col-xs-12 thumb">
+                        <a class="thumbnail" href="#">
+                            <img class="img-responsive" src="./img/img2.jpg" alt="">
+                            <p class='guide'>Bought:8832---------------1Day/1Night</p>
+                            <div class='orgPrice'>Original Price:$<span class='money'>10,000,000</span></div>
+                            <div class='price'>$1520</div>
+                        </a>
+                    </div>  
+                    <div class="col-lg-4 col-md-3 col-xs-12 thumb">
+                        <a class="thumbnail" href="#">
+                            <img class="img-responsive" src="./img/img3.jpg" alt="">
+                            <p class='guide'>Bought:8832---------------1Day/1Night</p>
+                            <div class='orgPrice'>Original Price:$<span class='money'>10,000,000</span></div>
+                            <div class='price'>$1520</div>
+                        </a>
+                    </div>
+                     <div class="col-lg-4 col-md-3 col-xs-12 thumb">
+                        <a class="thumbnail" href="#">
+                            <img class="img-responsive" src="./img/img4.jpg" alt="">
+                            <p class='guide'>Bought:8832---------------1Day/1Night</p>
+                            <div class='orgPrice'>Original Price:$<span class='money'>10,000,000</span></div>
+                            <div class='price'>$1520</div>
+                        </a>
+                    </div>
+                </div>
+        </div>
+        </div>
+        <hr>
+        <footer>
+            <div class="row footer">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h4 class="col-heading">ALL COURSES</h4>
+                                <ul class="footernav">
+                                    <li><a href="">All Activities</a></li>
+                                    <li><a href="">Hot Activities</a></li>
+                                    <li><a href="">Best Activities</a></li>
+                                    <li><a href="">New Activities</a></li>
+                                    <li><a href="">Reviewed Activities</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <h4 class="col-heading">PAGES</h4>
+                                <ul class="footernav">
+                                    <li><a href="">About us</a></li>
+                                    <li><a href="">How it Works for Vendors</a></li>
+                                    <li><a href="">Contact</a></li>
+                                    <li><a href="">FAQ</a></li>
+                                    <li><a href="">How it Works for Thrillers</a></li>
+                                    <li><a href="">Terms</a></li>
+                                    <li><a href="">Privacy Policy</a></li>
+                                    <li><a href="">Cancellation Policy</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <h4 class="col-heading">SOCIAL</h4>
+                                <ul class="footernav social">
+                                    <li>
+                                        <a href=""> <i class="fa fa-facebook"></i> Facebook</a>
+                                    </li>
+                                    <li><a href=""><i class="fa fa-twitter"></i>Twitter</a></li>
+                                    <li><a href=""><i class="fa fa-google-plus"></i>Google+</a></li>
+                                    <li><a href=""><i class="fa fa-pinterest"></i>Pinterest</a></li>
+                                    <li><a href=""><i class="fa fa-instagram"></i>Instagram</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-5">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="newsletter">
+                                    <p class="offer">
+                                        EXCLUSIVE OFFERS TO YOUR INBOX
+                                    </p>
+                                    <p class="email">
+                                        <input type="email" placeholder="Enter your email adress..">
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row info">
+                            <div class="col-md-4 fc">
+                                <h2 class="online">Now Online</h2>
+                                <p class="num">1</p>
+                                <p>Guests 0</p>
+                                <p>Members 1</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h2 class="total-member">
+                                    Total members
+                                </h2>
+                                <p class="num">48</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h2 class="app">
+                                    Get the App
+                                </h2>
+                                <p>
+                                    <a href="#"><img src="./img/App.jpg" class='img-thumbnail' alt=""></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-1"></div>
+
+        </div>
+        </footer>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+        });
+    </script>
+
+</body>
+
+</html>
